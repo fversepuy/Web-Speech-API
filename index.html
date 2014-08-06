@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Web Speech API</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<h1>Systeme de reconnaissance vocale</h1>
+	<h2>Google Web Speech API (webkit only)</h2>
+	<button class="btn btn-demarrer" href="#" id="btn">Démarrer</button>
+
+	<div id="result">
+		<span id="myFinalText"></span>
+		<span id="myIntermediaryText"></span>
+	</div>
+
+	<div id="help">
+		Caractères spéciaux (à prononcer tels que ci-dessous) :
+		<ul>
+			<li>"point"</li>
+			<li>"virgule"</li>
+			<li>"point d'interrogation"</li>
+			<li>"point d'exclamation"</li>
+			<li>"à la ligne"</li>
+		</ul>
+	</div>
+	<script type="text/Javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/Javascript" src="js/app.js"></script>
+</body>
+</html>
